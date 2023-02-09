@@ -19,8 +19,7 @@ root.render(
     }}
   >
     <App />
-  </Auth0Provider>,
-  document.getElementById("root")
+  </Auth0Provider>
   </Provider>
   </React.StrictMode>
   
