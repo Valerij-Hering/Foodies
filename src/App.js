@@ -16,6 +16,7 @@ import StripeContainer from "./Stripe/StripeContainer";
 import { useSelector } from 'react-redux';
 import { getTotalArticles } from './redux/cartSlice';
 import  { Toaster } from 'react-hot-toast';
+import About from './About';
 
 
 function App() {
@@ -55,28 +56,28 @@ function App() {
           <div>
             <Link to="/" className='link'>Home</Link>
           <Link to="/menu" className='link'>Menu</Link>
-          <a href="#services" className='link'>About Us</a>
-          <Link to="/contact" className='link '>Contact Us</Link>
+          <Link to="/about" className='link'>About Us</Link>
+          <Link to="/contact" className='link '>Contacts</Link>
           </div>
           <div onClick={() => openCart()} className='link-cart'><i className="fi fi-br-shopping-cart link linck-contact"></i>
           {totalItems > 0 &&
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
           </div>
-
           <button onClick={() => burgerActiv()} className='burger'><i className="fi fi-br-menu-burger"></i></button>
         </nav>
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
             <button className='btn-close-burger' onClick={() => burgerActiv()}><ion-icon name="close-outline"></ion-icon></button>
             <Link  onClick={() => burgerActiv()}  to="/" className='link-burger link-burger1'>Home</Link>
             <Link  onClick={() => burgerActiv()} to="/menu" className='link-burger'>Menu</Link>
-            <a  onClick={() => burgerActiv()} href="#services" className='link-burger'>About Us</a>
-            <Link  onClick={() => burgerActiv()} to="/contact" className='link-burger'>Contact Us</Link>
+            <Link  onClick={() => burgerActiv()} to="/about" className='link-burger'>About Us</Link>
+            <Link  onClick={() => burgerActiv()} to="/contact" className='link-burger'>Contacts</Link>
         </div>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/menu" element={<Menu/>}/>
           <Route path="/contact" element={<Contacts/>}/>
+          <Route path="/about" element={<About/>}/>
           {/* <Route path="/cart" element={<Cart/>}/> */}
         </Routes>
       </Router> 

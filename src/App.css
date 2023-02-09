@@ -219,6 +219,28 @@ body {
   font-size: 50px;
 }
 
+.link-cart {
+  position: relative;
+}
+
+.totalItemsCart {
+  background-color: #3ebc43;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: white 2px solid;
+  }
+  
+
 .home-content-par2 {
     margin-top: 20px;
   font-size: 15px;
@@ -367,26 +389,6 @@ body {
 .burger:hover {
   color: #ff7d08;
 }
-
-.totalItemsCart {
-background-color: #3ebc43;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 12px;
-cursor: pointer;
-  position: fixed;
-  top:11px;
-  right: 86px;
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  border: white 2px solid;
-}
-
-
-
 
 .link:hover {
   color: #ff7d08;
@@ -557,6 +559,16 @@ cursor: pointer;
   box-shadow: -5px -5px 20px #fff,  5px 5px 20px #BABECC;
 }
 /*  *************************************************************************************************************************************/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container {
+  padding-top: 180px;
+}
 
 .home-container3 {
   display: flex;
@@ -783,6 +795,7 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  width: 100%;
 }
 
 .footeer-par {
@@ -950,12 +963,9 @@ cursor: pointer;
   }
   
   .totalItemsCart {
-    position: fixed;
-    top:14px;
-    right: 53px;
-    width: 17px;
-    height: 17px;
-    border-radius: 50%;
+
+    top:10px;
+    left: 10px;
   }
 
   .container-socialNetwork {
@@ -1001,13 +1011,9 @@ cursor: pointer;
     width: 90%;
   }
 
-  .girl2 {
-    display: none;
-  }
 
   .container-experince {
     width: 90%;
-
   }
 
   .header-content {
@@ -1066,10 +1072,6 @@ cursor: pointer;
 
 @media all and (max-width: 500px) {
 
-  .container-mainImage {
-    display: flex;
-    margin-top: -50px;
-  }
 
   .container-socialNetwork {
     display: none;
@@ -1080,6 +1082,11 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
   } 
+
+  .cont-exp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
 
   .ffon {
@@ -1145,6 +1152,14 @@ cursor: pointer;
 
 .container-socialNetwork {
   margin-top: 200px;
+}
+
+.container-cart-true {
+  top: 100px;
+}
+
+.container-cart-false {
+  top: 100px;
 }
 
 }
