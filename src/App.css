@@ -1147,11 +1147,17 @@ body {
 
   .bnt-auth {
     margin-right: 0px;
+    padding-right: 0px;
   }
 
   .cont-exp {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .link {
+    margin-right: 0px;
+    padding-right: 0px;
   }
 
 }
