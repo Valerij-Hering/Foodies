@@ -1,5 +1,5 @@
 
-import Filter from "./Filter"
+import Filter from "./Filter";
 
 const AllCategories = () => {
     return (

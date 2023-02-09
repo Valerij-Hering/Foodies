@@ -63,6 +63,7 @@ function App() {
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
           </div>
+
           <button onClick={() => burgerActiv()} className='burger'><i className="fi fi-br-menu-burger"></i></button>
         </nav>
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
