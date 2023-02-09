@@ -188,14 +188,6 @@ body {
   margin-left: 3px;
 }
 
-/* svg {
-  position: absolute;
-  width: 1000px;
-  margin-left: auto;
-  z-index: -1;
-  right: -70px;
-} */
-
 .home-img {
   width: 700px;
   margin-top: 0px;
@@ -342,6 +334,7 @@ body {
 .navBar {
   padding: 2px 0px;
   width: 100%;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -353,6 +346,7 @@ body {
 .navBarColor {
   padding: 2px 0px;
   width: 100%;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -375,10 +369,25 @@ body {
 .linck-contact {
   padding: 0px;
   font-size: 20px;
-  margin-right: 100px;
-  background-color: #1a242800;
+  color: #1a2428;
   border: none;
   cursor: pointer;
+}
+
+.link-cart {
+  display: flex;
+}
+
+.bnt-auth {
+  margin-right: 100px;
+  color: #1a2428;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #1a242800;
+}
+.bnt-auth:hover {
+  color: #ff7d08;
 }
 
 .burger {
@@ -694,10 +703,12 @@ body {
 .box-close-cart {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 
-
 .btn-close-cart {
+  
+  color: #1a2428;
   background-color: #1a242800;
   border: none;
   width: 40px;
@@ -806,6 +817,72 @@ body {
 }
 
 /* Sing in ********************************************************************************************************************************** */
+
+.auth-containe-true {
+  width: 220px;
+  min-height: 220px;
+  background-color: #fff;
+  position: fixed;
+  right: 10px;
+  top: 80px;
+  margin-right: 0px;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px 0 rgba(14, 42, 90, 0.55);
+  transition: 0.2s;
+}
+
+.auth-containe-false {
+  width: 400px;
+  background-color: #fff;
+  position: fixed;
+  right: 0px;
+  top: 80px;
+  margin-right: -450px;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px 0 rgba(14, 42, 90, 0.55);
+  transition: 0.2s;
+}
+
+.box-auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+
+.btn-login {
+  width: 150px;
+  height: 45px;
+  font-size: 17px;
+  color: #1a2428;
+  border: #1a2428 1.5px solid;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  border: #1a2428 1.5px solid;
+  color: white;
+  background-color: #1a2428;
+}
+
+
+.account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account img {
+  width: 50px;
+  border-radius: 50%;
+  padding: 1px;
+  border: #1a2428 1px solid;
+}
 
 
 /* **************************************************************************************************************************************** */
@@ -1066,6 +1143,15 @@ body {
   .totelItemCart {
     top: -350px;
 
+  }
+
+  .bnt-auth {
+    margin-right: 8px;
+  }
+
+  .cont-exp {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
 }

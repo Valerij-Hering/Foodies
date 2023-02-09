@@ -17,6 +17,9 @@ import { useSelector } from 'react-redux';
 import { getTotalArticles } from './redux/cartSlice';
 import  { Toaster } from 'react-hot-toast';
 import About from './About';
+import Account from './Auth/Account';
+import Login from './Auth/Login';
+import Logout from './Auth/Logout';
 
 
 function App() {
@@ -24,6 +27,8 @@ function App() {
   const [burger, setBurger] = useState(false);
   const [cartContainer, setCartContainer] = useState(false);
   const [colorNav, setColorNav] = useState(false);
+  const [authBox, setAuthBox] = useState(false)
+  
   const openCart = () => {
         setCartContainer(!cartContainer)
     }
@@ -31,6 +36,10 @@ function App() {
 
     const burgerActiv = () => {
       setBurger(!burger);
+    }
+
+    const authBoxActiv = () => {
+      setAuthBox(!authBox);
     }
 
     const toggleVisible = () => {
@@ -59,11 +68,13 @@ function App() {
           <Link to="/about" className='link'>About Us</Link>
           <Link to="/contact" className='link '>Contacts</Link>
           </div>
-          <div onClick={() => openCart()} className='link-cart'><i className="fi fi-br-shopping-cart link linck-contact"></i>
+          <div  className='link-cart'><i onClick={() => openCart()} className="fi fi-br-shopping-cart link linck-contact"></i>
           {totalItems > 0 &&
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
+              <button onClick={() => authBoxActiv()} className='bnt-auth'><i class="fi fi-bs-user"></i></button>
           </div>
+          
           <button onClick={() => burgerActiv()} className='burger'><i className="fi fi-br-menu-burger"></i></button>
         </nav>
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
@@ -89,13 +100,23 @@ function App() {
           <StripeContainer />
         </div>
         
+        <div className={ authBox ? 'auth-containe-true' : 'auth-containe-false'}>
+          <div className='box-close-cart'>
+            <button className='btn-close-cart' onClick={() => authBoxActiv()}><ion-icon name="close-outline"></ion-icon></button>
+          </div>
+          <div className='box-auth'>
+            <Account/>
+            <Login/>
+            <Logout/>
+          </div>
+        </div>
         <Toaster 
           toastOptions={{
             
             error: {
               style: {
-                // background: 'white',
-                // padding: '20px'
+                background: 'white',
+                padding: '20px'
               }
             },
           }}/>
