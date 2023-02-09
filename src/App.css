@@ -1145,7 +1145,9 @@ body {
 
   }
 
- 
+  .bnt-auth {
+    margin-right: 8px;
+  }
 
   .cont-exp {
     display: flex;

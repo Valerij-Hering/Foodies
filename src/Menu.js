@@ -14,8 +14,8 @@ const Menu =() => {
                 toastOptions={{
                 success: {
                 style: {
-                background: 'white',
-                padding: '20px',
+                // background: 'white',
+                // padding: '20px',
                 }
             },
         }}

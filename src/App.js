@@ -73,9 +73,10 @@ function App() {
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
               <button onClick={() => authBoxActiv()} className='bnt-auth'><i class="fi fi-bs-user"></i></button>
+              <button onClick={() => burgerActiv()} className='burger'><i className="fi fi-br-menu-burger"></i></button>
           </div>
           
-          <button onClick={() => burgerActiv()} className='burger'><i className="fi fi-br-menu-burger"></i></button>
+         
         </nav>
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
             <button className='btn-close-burger' onClick={() => burgerActiv()}><ion-icon name="close-outline"></ion-icon></button>
@@ -115,8 +116,8 @@ function App() {
             
             error: {
               style: {
-                background: 'white',
-                padding: '20px'
+                // background: 'white',
+                // padding: '20px'
               }
             },
           }}/>
