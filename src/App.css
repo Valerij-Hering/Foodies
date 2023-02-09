@@ -1072,6 +1072,13 @@ body {
 
 @media all and (max-width: 500px) {
 
+  .container-mainImage {
+    margin-top: -50px;
+  }
+
+  .home-container2 {
+    padding-top: 100px;
+  }
 
   .container-socialNetwork {
     display: none;
