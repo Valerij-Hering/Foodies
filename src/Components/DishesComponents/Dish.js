@@ -16,7 +16,7 @@ const Dish = ({dish}) => {
 
 
                 <div className="product-card" key={dish.id} >
-                    <img src={`${dish.img}`+".png"} width="350px" height="250px" alt="food"/>
+                    <img src={`${dish.img} + '.png'`} width="350px" height="250px" alt="food"/>
                     <div className="product-info">
                         <div className="box-info">
                             <div className="box-time-cal">

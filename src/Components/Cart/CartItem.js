@@ -9,7 +9,7 @@ const CartItem = ({cartItem}) => {
     const dispatch = useDispatch()
     return (
         <div className="cartItem-container">
-            <img className="cartItem-img" src={`${dishes.img}`+".png"} width="50px" hight="20px" alt="dish"/>
+            <img className="cartItem-img" src={`${dishes.img}+".png"`} width="50px" hight="20px" alt="dish"/>
 
                 <div className="box1-cartItem">
                     

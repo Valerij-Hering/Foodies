@@ -30,13 +30,13 @@ function Home(){
             </div>
             <div className='container-socialNetwork'>
                 <div className='box-social-icon'>
-                    <i class="fi fi-brands-twitter"></i>
+                    <i className="fi fi-brands-twitter"></i>
                 </div>
                 <div className='box-social-icon'>
-                    <i class="fi fi-brands-facebook"></i>
+                    <i className="fi fi-brands-facebook"></i>
                 </div>
                 <div className='box-social-icon'>
-                    <i class="fi fi-brands-instagram"></i>
+                    <i className="fi fi-brands-instagram"></i>
                 </div>
             </div>
             <div className='home-container2'>
