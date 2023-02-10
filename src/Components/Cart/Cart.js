@@ -3,6 +3,7 @@ import { useSelector } from "react-redux"
 import { getCartItems, getTotalPrice } from "../../redux/cartSlice"
 import CartItem from "./CartItem"
 
+
 const Cart = () => {
 
     const cartItem = useSelector(getCartItems)

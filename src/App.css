@@ -327,7 +327,9 @@ body {
   background-color: #1a242800;
   width: 50px;
   margin-top: 10px;
+  margin-right: 10px;
   cursor: pointer;
+  color: #1a2428;
 }
 
 
@@ -742,6 +744,7 @@ body {
   font-size: 25px;
   cursor: pointer;
   margin-top: 5px;
+  margin-right: 5px;
 }
 
 .box-close-cartPhone {
@@ -755,7 +758,6 @@ body {
   color: #BABECC;
   background-color: #1a242800;
   border: none;
-  width: 40px;
   font-size: 25px;
   cursor: pointer;
   margin-top: 5px;
@@ -897,7 +899,7 @@ body {
 
 .btn-login {
   width: 150px;
-  height: 45px;
+  height: 35px;
   font-size: 17px;
   color: #1a2428;
   border: #1a2428 1.5px solid;
@@ -921,11 +923,28 @@ body {
   margin-bottom: 20px;
 }
 
+.account p {
+  color: #BABECC;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .account img {
   width: 50px;
   border-radius: 50%;
   padding: 1px;
-  border: #1a2428 1px solid;
+  border: #BABECC 1px solid;
+}
+
+.account1 p {
+  text-align: center;
+  color: #BABECC;
+}
+
+.userImg {
+  width: 90px;
+  border-radius: 0%;
+  border: none;
 }
 
 
