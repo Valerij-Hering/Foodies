@@ -1329,4 +1329,8 @@ body {
   width: 95%;
 }
 
+.container-cart {
+  max-height: 350px;
+}
+
 }
