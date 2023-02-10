@@ -98,7 +98,15 @@ function App() {
               <button className='btn-close-cart' onClick={() => openCart()}><ion-icon name="close-outline"></ion-icon></button>
             </div>
           <Cart/>
-          <StripeContainer />
+          {totalItems === 0 ? '' : <StripeContainer />}
+        </div>
+
+        <div className={cartContainer ? 'phoneContainer-cart-true' : 'phoneContainer-cart-false'}>
+            <div className='box-close-cartPhone'>
+              <button className='btn-close-cartPhone' onClick={() => openCart()}><i class="fi fi-rr-angle-small-down"></i></button>
+            </div>
+          <Cart/>
+          {totalItems === 0 ? '' : <StripeContainer />}
         </div>
         
         <div className={ authBox ? 'auth-containe-true' : 'auth-containe-false'}>
