@@ -103,7 +103,7 @@ function App() {
 
         <div className={cartContainer ? 'phoneContainer-cart-true' : 'phoneContainer-cart-false'}>
             <div className='box-close-cartPhone'>
-              <button className='btn-close-cartPhone' onClick={() => openCart()}><i class="fi fi-rr-minus"></i></button>
+              <button className='btn-close-cartPhone' onClick={() => openCart()}><i class="fi fi-rr-angle-down"></i></button>
             </div>
           <Cart/>
           {totalItems === 0 ? '' : <StripeContainer />}

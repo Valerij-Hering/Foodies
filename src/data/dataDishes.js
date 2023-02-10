@@ -7,7 +7,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "253 cal., 210 g.",
-    price: 16.99,
+    price: 35.04,
     img: "balance6"
     },
   
@@ -18,7 +18,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "456 cal., 308 g.",
-    price: 18.99,
+    price: 32.22,
     img: "balance1"
     },
   
@@ -29,7 +29,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Dinner",
     cal: "160 cal., 142 g.",
-    price: 12.99,
+    price: 27.67,
     img: "balance2"
     },
   
@@ -40,7 +40,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "176 cal., 145 g.",
-    price: 16.99,
+    price: 25.37,
     img: "balance3"
     },
   
@@ -51,7 +51,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "341 cal., 200 g.",
-    price: 13.99,
+    price: 31.02,
     img: "balance4"
     },
   
@@ -62,7 +62,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "634 cal., 268 g.",
-    price: 8.99,
+    price: 34.09,
     img: "balance5"
     },
   
@@ -73,7 +73,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "318 cal., 236 g.",
-    price: 15.79,
+    price: 35.56,
     img: "balance7"
     },
   
@@ -84,7 +84,7 @@ const dataDishes = [
     all: "all",
     cal:"270 cal., 130 g.",
     foodTime: "Breackfast",
-    price: 11.79,
+    price: 32.43,
     img: "basic1"
     },
   
@@ -95,7 +95,7 @@ const dataDishes = [
     all: "all",
     cal: "403 cal., 314 g.",
     foodTime: "Lunch",
-    price: 13.99,
+    price: 28.11,
     img: "basic2"
     },
   
@@ -106,7 +106,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "298 cal., 208 g.",
-    price: 15.29,
+    price: 34.03,
     img: "basic3"
     },
   
@@ -117,7 +117,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breackfast",
     cal: "212 cal., 224 g.",
-    price: 17.19,
+    price: 26.77,
     img: "basic4"
     },
   
@@ -128,7 +128,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "244 cal., 195 g.",
-    price: 12.39,
+    price: 24.87,
     img: "basic5"
     },
   
@@ -139,7 +139,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "437 cal., 320 g.",
-    price: 10.29,
+    price: 27.09,
     img: "basic6"
     },
   
@@ -150,7 +150,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "255 cal., 214 g.",
-    price: 14.89,
+    price: 34.03,
     img: "Breakfast1"
     },
   
@@ -161,7 +161,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "256 cal., 160 g.",
-    price: 11.99,
+    price: 32.15,
     img: "Breakfast2"
     },
   
@@ -172,7 +172,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "296 cal., 150 g.",
-    price: 9.89,
+    price: 35.22,
     img: "Breakfast3"
     },
   
@@ -183,7 +183,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "230 cal., 166 g.",
-    price: 12.99,
+    price: 31.93,
     img: "Breakfast4"
     },
   
@@ -194,7 +194,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "259 cal., 180 g.",
-    price: 13.79,
+    price: 33.78,
     img: "Breakfast5"
     },
     {
@@ -204,7 +204,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "741 cal., 243 g.",
-    price: 11.99,
+    price: 31.14,
     img: "daily1"
     },
     
@@ -215,7 +215,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "289 cal., 200 g.",
-    price: 14.99,
+    price: 29.96,
     img: "daily2"
     },
     
@@ -226,7 +226,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Dinner",
     cal: "208 cal., 150 g.",
-    price: 17.99,
+    price: 33.75,
     img: "daily3"
     },
   
@@ -237,7 +237,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Breakfast",
     cal: "286 cal., 174 g.",
-    price: 15.49,
+    price: 31.88,
     img: "daily4"
     },
     
@@ -248,7 +248,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "280 cal., 180 g.",
-    price: 17.99,
+    price: 30.29,
     img: "dinner1"
     },
     
@@ -259,7 +259,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "424 cal., 270 g.",
-    price: 16.79,
+    price: 28.49,
     img: "dinner2"
     },
   
@@ -270,7 +270,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "304 cal., 240 g.",
-    price: 19.39,
+    price: 26.67,
     img: "dinner3"
     },
   
@@ -281,7 +281,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Lunch",
     cal: "483 cal., 224 g.",
-    price: 14.99,
+    price: 34.56,
     img: "dinner4"
     },
   
@@ -292,7 +292,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Dinner",
     cal: "305 cal., 188 g.",
-    price: 11.99,
+    price: 31.22,
     img: "afternoonTea1"
     },
   
@@ -303,7 +303,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Dinner",
     cal: "573 cal., 250 g.",
-    price: 11.99,
+    price: 27.12,
     img: "afternoonTea2"
     },
   
@@ -314,7 +314,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Dinner",
     cal: "375 cal., 190 g.",
-    price: 11.99,
+    price: 25.15,
     img: "afternoonTea3"
     },
   
@@ -325,7 +325,7 @@ const dataDishes = [
     all: "all",
     foodTime: "Dinner",
     cal: "305 cal., 188 g.",
-    price: 11.99,
+    price: 29.05,
     img: "afternoonTea4"
     },
   
