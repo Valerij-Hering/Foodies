@@ -394,7 +394,7 @@ body {
   cursor: pointer;
   background-color: #1a242800;
 }
-.bnt-auth:hover {
+.btn-auth:hover {
   color: #ff7d08;
 }
 
@@ -1197,6 +1197,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: 0px;
+    padding-right: 0px;
   }
 
   nav {
