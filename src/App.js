@@ -68,7 +68,7 @@ function App() {
           <Link to="/about" className='link'>About Us</Link>
           <Link to="/contact" className='link '>Contacts</Link>
           </div>
-          <div  className='link-cart'><i onClick={() => openCart()} className="fas fa-shopping-cart linck-contact"></i>
+          <div  className='link-cart'><i onClick={() => openCart()} className="fas	fa-shopping-basket linck-contact"></i>
           {totalItems > 0 &&
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
