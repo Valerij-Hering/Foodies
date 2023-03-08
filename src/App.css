@@ -369,6 +369,7 @@ body {
 }
 
 .linck-contact {
+  margin: 20px;
   padding: 0px;
   font-size: 20px;
   color: #1a2428;
@@ -376,11 +377,16 @@ body {
   cursor: pointer;
 }
 
+.linck-contact:hover {
+  color: #ff7d08;
+}
+
 .link-cart {
   display: flex;
 }
 
-.bnt-auth {
+.btn-auth {
+
   margin-right: 100px;
   color: #1a2428;
   font-size: 20px;
@@ -1208,8 +1214,8 @@ body {
 
   }
 
-  .bnt-auth {
-    margin-right: 0px;
+  .btn-auth {
+    margin-right: 10px;
     padding-right: 0px;
   }
 

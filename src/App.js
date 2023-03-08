@@ -68,18 +68,18 @@ function App() {
           <Link to="/about" className='link'>About Us</Link>
           <Link to="/contact" className='link '>Contacts</Link>
           </div>
-          <div  className='link-cart'><i onClick={() => openCart()} className="fi fi-br-shopping-cart link linck-contact"></i>
+          <div  className='link-cart'><i onClick={() => openCart()} className="fas fa-shopping-cart linck-contact"></i>
           {totalItems > 0 &&
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
-              <button onClick={() => authBoxActiv()} className='bnt-auth'><i class="fi fi-bs-user"></i></button>
-              <button onClick={() => burgerActiv()} className='burger'><i className="fi fi-br-menu-burger"></i></button>
+              <button onClick={() => authBoxActiv()} className='btn-auth'><i class="fas	fa-user"></i></button>
+              <button onClick={() => burgerActiv()} className='burger'><i className="fas	fa-bars"></i></button>
           </div>
           
          
         </nav>
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
-            <button className='btn-close-burger' onClick={() => burgerActiv()}><ion-icon name="close-outline"></ion-icon></button>
+            <button className='btn-close-burger' onClick={() => burgerActiv()}><i className='fas	fa-times'></i></button>
             <Link  onClick={() => burgerActiv()}  to="/" className='link-burger link-burger1'>Home</Link>
             <Link  onClick={() => burgerActiv()} to="/menu" className='link-burger'>Menu</Link>
             <Link  onClick={() => burgerActiv()} to="/about" className='link-burger'>About Us</Link>
@@ -95,7 +95,7 @@ function App() {
       </Router> 
         <div className={cartContainer ? 'container-cart-true' : 'container-cart-false'}>
             <div className='box-close-cart'>
-              <button className='btn-close-cart' onClick={() => openCart()}><ion-icon name="close-outline"></ion-icon></button>
+              <button className='btn-close-cart' onClick={() => openCart()}><i className='fas	fa-times'></i></button>
             </div>
           <Cart/>
           {totalItems === 0 ? '' : <StripeContainer />}
@@ -103,7 +103,7 @@ function App() {
 
         <div className={cartContainer ? 'phoneContainer-cart-true' : 'phoneContainer-cart-false'}>
             <div className='box-close-cartPhone'>
-              <button className='btn-close-cartPhone' onClick={() => openCart()}><i class="fi fi-rr-angle-down"></i></button>
+              <button className='btn-close-cartPhone' onClick={() => openCart()}><i className="fas	fa-caret-down"></i></button>
             </div>
           <Cart/>
           {totalItems === 0 ? '' : <StripeContainer />}
@@ -111,7 +111,7 @@ function App() {
         
         <div className={ authBox ? 'auth-containe-true' : 'auth-containe-false'}>
           <div className='box-close-cart'>
-            <button className='btn-close-cart' onClick={() => authBoxActiv()}><ion-icon name="close-outline"></ion-icon></button>
+            <button className='btn-close-cart' onClick={() => authBoxActiv()}><i className='fas	fa-times'></i></button>
           </div>
           <div className='box-auth'>
             <Account/>

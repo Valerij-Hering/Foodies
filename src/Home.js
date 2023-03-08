@@ -11,6 +11,12 @@ import man from './Images/man.png';
 
 
 
+
+
+
+
+
+
 function Home(){
 
     

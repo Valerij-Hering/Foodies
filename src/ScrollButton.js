@@ -28,7 +28,7 @@ const ScrollButton = () =>{
     return (
         <button className="scroll-btn" onClick={scrollToTop}
         style={{display: visible ? 'inline' : 'none'}} >
-            <i className="fi fi-ss-angle-circle-up scroll-icon"></i>
+            <i className="fas	fa-chevron-circle-up scroll-icon"></i>
         </button>
     );
     }
