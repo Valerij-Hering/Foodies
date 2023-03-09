@@ -20,6 +20,8 @@ import About from './About';
 import Account from './Auth/Account';
 import Login from './Auth/Login';
 import Logout from './Auth/Logout';
+import user from './user.png';
+import shoppingCart from './shopping-cart.png';
 
 
 function App() {
@@ -68,11 +70,11 @@ function App() {
           <Link to="/about" className='link'>About Us</Link>
           <Link to="/contact" className='link '>Contacts</Link>
           </div>
-          <div  className='link-cart'><i onClick={() => openCart()} className="fas	fa-shopping-basket linck-contact"></i>
+          <div  className='link-cart'><i onClick={() => openCart()} className="linck-contact"><img src={shoppingCart} width="20px" alt='icon'/></i>
           {totalItems > 0 &&
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
-              <button onClick={() => authBoxActiv()} className='btn-auth'><i class="fi fi-bs-user"></i></button>
+              <button onClick={() => authBoxActiv()} className='btn-auth'><img src={user} width="20px" alt='icon'/></button>
               <button onClick={() => burgerActiv()} className='burger'><i className="fas	fa-bars"></i></button>
           </div>
           
