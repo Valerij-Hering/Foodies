@@ -72,7 +72,7 @@ function App() {
           {totalItems > 0 &&
               <span onClick={() => openCart()} className='totalItemsCart'>{totalItems}</span>
               }
-              <button onClick={() => authBoxActiv()} className='btn-auth'><i class="fas	fa-user"></i></button>
+              <button onClick={() => authBoxActiv()} className='btn-auth'><i class="fi fi-bs-user"></i></button>
               <button onClick={() => burgerActiv()} className='burger'><i className="fas	fa-bars"></i></button>
           </div>
           
